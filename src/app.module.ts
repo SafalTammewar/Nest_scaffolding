@@ -31,10 +31,10 @@ import { userEntity } from './devutils/users/entity/user.entity';
   imports: [UsersModule, TypeOrmModule.forRoot({
     type: 'postgres',
     port: 5432,
-    username: 'postgres',
-    password: 'root',
-    database: 'nestdapp',
-    host: 'localhost',
+    username: 'cxxzmixwhpzblf',
+    password: '2187f850a83f8c1b96f290392b6ca1ef89150574649dcd4ddb0a5f9a7bfe6340',
+    database: 'd1up4irvq9pvtu',
+    host: 'ec2-54-225-106-93.compute-1.amazonaws.com',
     synchronize: true,
     entities: [userEntity]
   }), ErrorcodesModule],
